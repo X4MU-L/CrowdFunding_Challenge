@@ -3,22 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <!-- Styles Links -->
+  <link rel="stylesheet" href="index.css">
   <title>Frontend Mentor | Crowdfunding product page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  About
-  Discover
-  Get Started
-
+  <!-- The Header Starts Here -->
+  <header>
+    <nav class="nav-links">
+      <div><img src="./images/logo.svg" alt="Crowdfunding Logo"></div>
+      <div class="nav-links-right">
+        <button class="menu-btn">
+          <i class="hamburger"><img src="./images/icon-hamburger.svg" alt=""></i>
+          <i class="close-menu"><img src="./images/icon-close-menu.svg" alt=""></i>
+        </button>
+        <div class="backdrop"></div>
+        <div class="nav-links-right-container">
+          <ul class="link-items">
+            <li>About</li>
+            <li>Discover</li>
+            <li>Get Started</li>
+          </ul>
+        </div>
+      </div>
+  </nav>
+  </header>
+  <!-- The Header ends Here -->
+  <!-- The Main Starts Here -->
+<main>
   Mastercraft Bamboo Monitor Riser
   A beautiful & handcrafted monitor stand to reduce neck and eye strain.
 
@@ -114,5 +127,7 @@
   Got it!
 
   <!-- Success modal end -->
+</main>
+<script src="index.js"></script>
 </body>
 </html>
